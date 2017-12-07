@@ -17,6 +17,11 @@ img {
   margin-right: auto;
 }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+
 /* Navigation Styles */
 
 .navbar-default .navbar-nav > .active > a,
@@ -70,10 +75,12 @@ img {
 
 .jumbotron span:active {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  background-color: #399bd1;
 }
 
 .jumbotron span:hover {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: #399bd1;
 }
 
 /* Featured Section Styles */
@@ -133,9 +140,27 @@ img {
 .footer h1 {
   font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 1.5rem;
 }
 
 .footer p {
-  margin: 0 auto 1.4rem auto;
+  margin: 0 auto 3rem auto;
   max-width: 42rem;
+}
+
+.footer span {
+  max-width: 11.4rem;
+  background-color: #399bd1;
+  padding: 1.3rem 2rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.footer span:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  background-color: #399bd1;
+}
+
+.footer span:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+  background-color: #399bd1;
 }
