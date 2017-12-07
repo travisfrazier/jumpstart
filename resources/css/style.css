@@ -1,0 +1,141 @@
+/* Base Styles */
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+img {
+  width: 100%;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Navigation Styles */
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar-default .navbar-nav a {
+  color: #818181;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar-default .navbar-nav a:hover {
+  color: #585858;
+}
+
+/* Jumbotron Styles */
+
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+  background-position: center;
+  margin-bottom: 5rem;
+}
+
+.jumbotron h1 {
+  font-family: Monoton;
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1 -1 0 #000, 1 -1 0 #000, -1 1 0 #000, 1 1 0 #000;
+}
+
+.jumbotron p {
+  color: white;
+  max-width: 51.3rem;
+  margin: 0 auto 2.7rem auto;
+  font-size: 1.6rem;
+}
+
+.jumbotron span {
+  max-width: 11.4rem;
+  background-color: #399bd1;
+  padding: 1.3rem 2rem;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron span:active {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron span:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+}
+
+/* Featured Section Styles */
+.list {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.list p {
+  margin: 2px;
+}
+
+.featured-title {
+  margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+.proj-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#cat-title {
+  color: #399bd1;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.col-sm-6 {
+  padding-top: 47px;
+}
+
+.featured-section {
+  margin-bottom: 5rem;
+}
+
+/* Projects Section */
+.project {
+  padding-top: 47px;
+}
+
+.projects-section img {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #f3f3f3;
+  padding: 5.2rem 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 0 auto 1.4rem auto;
+  max-width: 42rem;
+}
