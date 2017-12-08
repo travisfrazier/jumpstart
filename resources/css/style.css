@@ -54,6 +54,10 @@ img {
   overflow: hidden;
 }
 
+.slick-slide {
+  outline: none;
+}
+
 
 
 /* Navigation Styles */
@@ -82,26 +86,24 @@ img {
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
   margin-bottom: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .jumbotron-bike {
   background-image: url("../images/jumbotron-bike.jpg");
-  background-position: center;
 }
 
 .jumbotron-flowers {
   background-image: url("../images/jumbotron-flowers.jpg");
-  background-position: center;
 }
 
 .jumbotron-beer {
   background-image: url("../images/jumbotron-beer.jpg");
-  background-position: center;
 }
 
 .jumbotron-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
-  background-position: center;
 }
 
 .jumbotron h1 {
@@ -189,4 +191,14 @@ img {
 .footer p {
   margin: 0 auto 3rem auto;
   max-width: 42rem;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-nav li {
+    margin-right: 2rem;
+  }
 }
