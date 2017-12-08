@@ -50,7 +50,7 @@ img {
   transform: scale(1.3);
 }
 
-.image-container {
+.image-container, img {
   overflow: hidden;
 }
 
@@ -136,17 +136,21 @@ img {
   margin-bottom: 5rem;
 }
 
+.featured-section h2 {
+  padding-top: 2rem;
+}
+
 /* Projects Section */
 .project {
   padding-top: 47px;
 }
 
-.projects-section img {
-  margin-bottom: 2rem;
-}
-
 .projects-section {
   margin-bottom: 5.2rem;
+}
+
+.project-info {
+  padding-top: 2rem;
 }
 
 /* Footer */
